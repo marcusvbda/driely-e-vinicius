@@ -1,8 +1,21 @@
 <template>
     <div class="top-container">
         <div class="sdn-topo">
-            <img src="/top.png" class="lg-show sm-hide" alt="top">
-            <img src="/top_small.png" class="lg-hide sm-show" alt="top">
+            <img src="/top.png" alt="top">
+        </div>
+        <div class="menu">
+            <NuxtLink class="item" to="/">HOME</NuxtLink>
+            <NuxtLink class="item" to="/">OS NOIVOS</NuxtLink>
+            <NuxtLink class="item" to="/">PADRINHOS</NuxtLink>
+            <NuxtLink class="item" to="/">NOSSAS DAMINHAS</NuxtLink>
+            <NuxtLink class="item" to="/">NOSSOS PAIS</NuxtLink>
+            <NuxtLink class="item" to="/">A CERIMÔNIA</NuxtLink>
+            <NuxtLink class="item" to="/">A RECEPÇÃO</NuxtLink>
+            <NuxtLink class="item" to="/">LISTA DE PRESENTES</NuxtLink>
+            <NuxtLink class="item" to="/">CONFIRME SUA PRESENÇA</NuxtLink>
+            <NuxtLink class="item" to="/">RECADOS</NuxtLink>
+            <NuxtLink class="item" to="/">HOSPEDAGEM</NuxtLink>
+            <NuxtLink class="item" to="/">DICAS UTEIS</NuxtLink>
         </div>
     </div>
 </template>
@@ -24,6 +37,25 @@ export default {
         img {
             width: 100%;
             height: 100%;
+        }
+    }
+
+    .menu {
+        margin: 50px 0;
+        border-top: 1px solid white;
+        padding: 30px 0;
+        border-bottom: 1px solid white;
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+            color : white;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
         }
     }
 }
