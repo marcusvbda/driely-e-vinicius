@@ -18,7 +18,7 @@
     "eslint-plugin-vue": "^9.1.1",
     "nuxt": "^2.15.8",
     "sass": "^1.53.0",
-    "sass-loader": "8",
+    "sass-loader": "^10.1.1",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-ssr-carousel": "^1.4.0",
