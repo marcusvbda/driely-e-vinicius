@@ -31,6 +31,9 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     "bootstrap-vue/nuxt",
   ],
+  generate: {
+    dir: 'public'
+  }
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
