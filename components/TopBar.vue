@@ -4,9 +4,9 @@
             <img src="/top.png" alt="top">
         </div>
         <div class="menu">
-            <NuxtLink class="item" to="/">HOME</NuxtLink>
-            <NuxtLink class="item" to="/">OS NOIVOS</NuxtLink>
-            <NuxtLink class="item" to="/">PADRINHOS</NuxtLink>
+            <NuxtLink class="item" to="/" :class="{'active' : $nuxt.$route.path === '/'}">HOME</NuxtLink>
+            <NuxtLink class="item" to="/noivos" :class="{'active' : $nuxt.$route.path === '/noivos'}">OS NOIVOS</NuxtLink>
+            <NuxtLink class="item" to="/padrinhos" :class="{'active' : $nuxt.$route.path === '/padrinhos'}">PADRINHOS</NuxtLink>
             <NuxtLink class="item" to="/">NOSSAS DAMINHAS</NuxtLink>
             <NuxtLink class="item" to="/">NOSSOS PAIS</NuxtLink>
             <NuxtLink class="item" to="/">A CERIMÔNIA</NuxtLink>
@@ -56,6 +56,11 @@ export default {
             font-size: 16px;
             font-weight: 500;
             cursor: pointer;
+
+            font-weight: 400;
+            &.active {
+                font-weight: 800;
+            }
         }
     }
 }
