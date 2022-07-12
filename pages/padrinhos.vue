@@ -75,11 +75,236 @@
     <br>
     DRY E VINI
   </p>
-    <ssr-carousel class="slider-home"  show-arrows  show-dots>
-      <div class="slide" v-for="i in 11" :key="i">
-        <img  :src="`/slide_noivos/slide${i}.jpeg`">
-      </div>
-    </ssr-carousel>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/tamires.jpeg" />
+      <div class="text-center mt-2">Tamires</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/lucas.jpeg" />
+      <div class="text-center mt-2">Tamires</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/tamires-lucas.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/dani.png" />
+      <div class="text-center mt-2">Dany</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/vitor.png" />
+      <div class="text-center mt-2">Vitor</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/dani-vitor.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/nay.png" />
+      <div class="text-center mt-2">Nayara</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/gui.png" />
+      <div class="text-center mt-2">Guilherme</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/nay-gui.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/nayla.png" />
+      <div class="text-center mt-2">Nayla</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/fa.png" />
+      <div class="text-center mt-2">Guilherme</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/nayla-fa.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/carol.png" />
+      <div class="text-center mt-2">Ana Carolina</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/rodrigo.png" />
+      <div class="text-center mt-2">Rodrigo</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/carol-rodrigo.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/je.png" />
+      <div class="text-center mt-2">Jéssica</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/erick.png" />
+      <div class="text-center mt-2">Erick</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/je-erick.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/camila.png" />
+      <div class="text-center mt-2">Camila</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/rogerio.png" />
+      <div class="text-center mt-2">Rogério</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/camila-rogerio.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/karina.png" />
+      <div class="text-center mt-2">Karina</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/marcelo.png" />
+      <div class="text-center mt-2">Marcelo</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/karina-marcelo.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/silvia.png" />
+      <div class="text-center mt-2">Silvia</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/guto.png" />
+      <div class="text-center mt-2">Guto</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/silvia-guto.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/raquel.png" />
+      <div class="text-center mt-2">Raquel</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/gustavo.png" />
+      <div class="text-center mt-2">Gustavo</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/raquel-gustavo.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/yu.png" />
+      <div class="text-center mt-2">Yurie</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/sheiji.png" />
+      <div class="text-center mt-2">Sheiji</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/yu-sheiji.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/tricia.png" />
+      <div class="text-center mt-2">Tricia</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/joao.png" />
+      <div class="text-center mt-2">Joao</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/tricia-joao.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/carol2.png" />
+      <div class="text-center mt-2">Carol</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/fer.png" />
+      <div class="text-center mt-2">Fernando</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/carol-fer.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/rafa.png" />
+      <div class="text-center mt-2">Rafaela</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/le.png" />
+      <div class="text-center mt-2">Leandro</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/rafa-le.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/de.png" />
+      <div class="text-center mt-2">Débora</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/leo.png" />
+      <div class="text-center mt-2">Leonardo</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/de-leo.jpg" />
+    </div>
+  </div>
+
+  <div class="flex-row mb-4 gap-4">
+    <div class="flex-column">
+      <img src="/padrinhos/tami.png" />
+      <div class="text-center mt-2">Tamires</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/tay.png" />
+      <div class="text-center mt-2">Tainara</div>
+    </div>
+    <div class="flex-column">
+      <img src="/padrinhos/tami-tay.jpg" />
+    </div>
+  </div>
+
+  <ssr-carousel class="slider-home"  show-arrows  show-dots>
+    <div class="slide" v-for="i in 11" :key="i">
+      <img  :src="`/padrinhos/slider_padrinhos/slide${i}.jpeg`">
+    </div>
+  </ssr-carousel>
    
   </div>
 </template>

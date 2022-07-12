@@ -7,7 +7,7 @@
             <NuxtLink class="item" to="/" :class="{'active' : $nuxt.$route.path === '/'}">HOME</NuxtLink>
             <NuxtLink class="item" to="/noivos" :class="{'active' : $nuxt.$route.path === '/noivos'}">OS NOIVOS</NuxtLink>
             <NuxtLink class="item" to="/padrinhos" :class="{'active' : $nuxt.$route.path === '/padrinhos'}">PADRINHOS</NuxtLink>
-            <NuxtLink class="item" to="/">NOSSAS DAMINHAS</NuxtLink>
+            <NuxtLink class="item"  to="/daminhas" :class="{'active' : $nuxt.$route.path === '/daminhas'}">NOSSAS DAMINHAS</NuxtLink>
             <NuxtLink class="item" to="/">NOSSOS PAIS</NuxtLink>
             <NuxtLink class="item" to="/">A CERIMÔNIA</NuxtLink>
             <NuxtLink class="item" to="/">A RECEPÇÃO</NuxtLink>

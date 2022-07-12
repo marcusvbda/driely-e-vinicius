@@ -22,4 +22,34 @@ body {
         max-width: 950px;
     }
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.gap-4 {
+    gap:20px
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.justify-center {
+    justify-content: center;
+}
 </style>
