@@ -8,14 +8,10 @@
             <NuxtLink class="item" to="/noivos" :class="{'active' : $nuxt.$route.path === '/noivos'}">OS NOIVOS</NuxtLink>
             <NuxtLink class="item" to="/padrinhos" :class="{'active' : $nuxt.$route.path === '/padrinhos'}">PADRINHOS</NuxtLink>
             <NuxtLink class="item"  to="/daminhas" :class="{'active' : $nuxt.$route.path === '/daminhas'}">NOSSAS DAMINHAS</NuxtLink>
-            <NuxtLink class="item" to="/">NOSSOS PAIS</NuxtLink>
-            <NuxtLink class="item" to="/">A CERIMÔNIA</NuxtLink>
-            <NuxtLink class="item" to="/">A RECEPÇÃO</NuxtLink>
-            <NuxtLink class="item" to="/">LISTA DE PRESENTES</NuxtLink>
-            <NuxtLink class="item" to="/">CONFIRME SUA PRESENÇA</NuxtLink>
-            <NuxtLink class="item" to="/">RECADOS</NuxtLink>
-            <NuxtLink class="item" to="/">HOSPEDAGEM</NuxtLink>
-            <NuxtLink class="item" to="/">DICAS UTEIS</NuxtLink>
+            <NuxtLink class="item" to="/pais" :class="{'active' : $nuxt.$route.path === '/pais'}">NOSSOS PAIS</NuxtLink>
+            <NuxtLink class="item" to="/cerimonia" :class="{'active' : $nuxt.$route.path === '/cerimonia'}">A CERIMÔNIA</NuxtLink>
+            <NuxtLink class="item" to="/recepcao" :class="{'active' : $nuxt.$route.path === '/recepcao'}">A RECEPÇÃO</NuxtLink>
+            <NuxtLink class="item" to="/recados" :class="{'active' : $nuxt.$route.path === '/recados'}">RECADOS</NuxtLink>
         </div>
     </div>
 </template>
